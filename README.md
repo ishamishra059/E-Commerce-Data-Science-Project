@@ -58,15 +58,17 @@ Clustering performance evaluation
 
 ## Project Structure
 
+'''
 ecommerce-data-science/
 │
 ├── data/
-│   ├── Customers.csv
-│   ├── Products.csv
-│   └── Transactions.csv
+│   ├── Customers.csv          # Contains customer details (e.g., demographics, purchase history)
+│   ├── Products.csv           # Contains product details (e.g., product IDs, descriptions, prices)
+│   └── Transactions.csv       # Contains transaction data (e.g., customer-product interactions)
 │
 ├── notebooks/
-│   ├── EDA.ipynb
-│   ├── Lookalike_Model.ipynb
-│   └── Customer_Clustering.ipynb
+│   ├── EDA.ipynb              # Exploratory Data Analysis to understand data patterns
+│   ├── Lookalike_Model.ipynb  # Notebook for creating lookalike models to find similar customers
+│   └── Customer_Clustering.ipynb  # Customer segmentation using clustering techniques
+'''
 
