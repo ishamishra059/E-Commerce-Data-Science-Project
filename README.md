@@ -58,9 +58,6 @@ Clustering performance evaluation
 
 ## Project Structure
 
-This project is organized into the following structure:
-
-plaintext
 ecommerce-data-science/
 │
 ├── data/
@@ -73,6 +70,11 @@ ecommerce-data-science/
 │   ├── Lookalike_Model.ipynb  # Notebook for creating lookalike models to find similar customers
 │   └── Customer_Clustering.ipynb  # Customer segmentation using clustering techniques
 
+
+Each folder and file serves the following purpose:
+
+- *data/*: Stores all datasets used for analysis and modeling.
+- *notebooks/*: Contains Jupyter notebooks for data exploration, modeling, and insights generation.
 
 Each folder and file serves the following purpose:
 
