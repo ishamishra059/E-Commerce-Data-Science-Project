@@ -1,52 +1,89 @@
-# E-Commerce-Data-Science-Project
+# E-Commerce Data Science Project
+
 ## Overview
-Advanced data science project analyzing e-commerce transactions through comprehensive exploratory data analysis, customer lookalike modeling, and customer segmentation.
+This project analyzes e-commerce transaction data to derive meaningful insights, build a lookalike model for customer similarity, and perform customer segmentation using clustering techniques. The aim is to help businesses understand customer behavior and optimize their marketing strategies.
 
-##Key Features
+---
 
-🔍 Detailed transaction dataset analysis
-🤝 Customer similarity prediction model
-📊 Advanced clustering techniques
-💡 Actionable business insights generation
+## Key Features
 
-## Technical Highlights
+- 🔍 *Detailed transaction dataset analysis*
+- 🤝 *Customer similarity prediction model*
+- 📊 *Advanced clustering techniques*
+- 💡 *Actionable business insights generation*
 
-## Machine Learning Techniques:
-
-Cosine Similarity
-K-means Clustering
-Customer Profiling
-Advanced Recommendation Algorithms
-
-
-## Data Processing:
-
-Pandas data manipulation
-Scikit-learn preprocessing
-Statistical analysis
-Feature engineering
-Data cleaning and transformation
-
-## Business Value
-
-🎯 Identifies customer segments
-🚀 Recommends personalized marketing strategies
-📈 Provides data-driven insights for business decision-making
-💰 Potential revenue optimization
+---
 
 ## Dataset
 
-200 unique customers
-Multiple product categories
-Comprehensive transaction records
-Rich customer profile information
+The dataset contains the following files:
+
+- *Customers.csv*: Contains customer details such as:
+  - Demographic information (age, gender, location)
+  - Purchase history and frequency
+
+- *Products.csv*: Contains product details such as:
+  - Product IDs
+  - Descriptions
+  - Prices and categories
+
+- *Transactions.csv*: Contains transaction data such as:
+  - Customer-product interactions
+  - Purchase timestamps and quantities
+
+*Preprocessing steps* include handling missing values, normalizing data, and converting categorical variables into numerical formats where necessary.
+
+---
+
+## Methodology
+
+### Exploratory Data Analysis (EDA)
+- Conducted to understand data distribution, patterns, and anomalies.
+- Key techniques include:
+  - Visualizing transaction trends over time.
+  - Analyzing product popularity by categories.
+  - Identifying top-performing customer segments.
+  
+### Lookalike Model
+- Built using *Cosine Similarity* to identify customers who share similar behaviors or purchase patterns.
+- Top 3 similar customers with similarity scores are provided for CustomerIDs C0001–C0020.
+
+### Customer Segmentation
+- Applied *K-Means Clustering* to group customers based on their purchase behavior.
+- The optimal number of clusters was determined using metrics such as the Elbow Method and Silhouette Score.
+- Clustering results were visualized to aid business decision-making.
+
+---
+
+## Business Value
+
+- 🎯 *Identifies customer segments*
+- 🚀 *Recommends personalized marketing strategies*
+- 📈 *Provides data-driven insights for business decision-making*
+- 💰 *Potential revenue optimization*
+
+---
+
+## Data Processing
+
+- *Pandas* for data manipulation
+- *Scikit-learn* for preprocessing
+- *Statistical analysis* for insights
+- *Feature engineering* to extract meaningful data
+- *Data cleaning and transformation* for accurate results
+
+---
 
 ## Metrics
 
-Davies-Bouldin Index
-Silhouette Score
-Revenue and customer acquisition analysis
-Clustering performance evaluation
+To evaluate the models and analysis, the following metrics were used:
+
+- *Davies-Bouldin Index*: Measures clustering quality by comparing intra-cluster distances to inter-cluster distances.
+- *Silhouette Score*: Assesses the compactness and separation of clusters.
+- *Revenue Analysis*: Helps identify high-value customers and popular products.
+- *Customer Acquisition Insights*: Assists in understanding and optimizing customer retention.
+
+---
 
 ## Technologies Used
 
