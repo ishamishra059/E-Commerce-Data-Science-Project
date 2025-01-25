@@ -56,28 +56,3 @@ Clustering performance evaluation
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical-blueviolet)
 
-## Project Structure
-
-ecommerce-data-science/
-│
-├── data/
-│   ├── Customers.csv          # Contains customer details (e.g., demographics, purchase history)
-│   ├── Products.csv           # Contains product details (e.g., product IDs, descriptions, prices)
-│   └── Transactions.csv       # Contains transaction data (e.g., customer-product interactions)
-│
-├── notebooks/
-│   ├── EDA.ipynb              # Exploratory Data Analysis to understand data patterns
-│   ├── Lookalike_Model.ipynb  # Notebook for creating lookalike models to find similar customers
-│   └── Customer_Clustering.ipynb  # Customer segmentation using clustering techniques
-
-
-Each folder and file serves the following purpose:
-
-- *data/*: Stores all datasets used for analysis and modeling.
-- *notebooks/*: Contains Jupyter notebooks for data exploration, modeling, and insights generation.
-
-Each folder and file serves the following purpose:
-
-- *data/*: Stores all datasets used for analysis and modeling.
-- *notebooks/*: Contains Jupyter notebooks for data exploration, modeling, and insights generation.
-
